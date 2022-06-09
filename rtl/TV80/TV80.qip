@@ -5,3 +5,4 @@ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "tv80_r
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "tv80n.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "tv80s.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "tv80e.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "tv80pa.v"]

@@ -4,7 +4,6 @@
 module top(
 
    input clk_48 /*verilator public_flat*/,
-   input clk_12 /*verilator public_flat*/,
    input reset/*verilator public_flat*/,
    input [11:0]  inputs/*verilator public_flat*/,
 
@@ -27,8 +26,9 @@ module top(
    input [7:0]  ioctl_dout,
    input [7:0]  ioctl_din,   
    input [7:0]  ioctl_index,
-   output  reg  ioctl_wait=1'b0
+   output  reg  ioctl_wait=1'b0,
    
+   output ce_pix
 );
    
    // Core inputs/outputs
@@ -44,10 +44,6 @@ module top(
    reg [7:0]  sw1 = { 1'b0, 1'b0,2'b0,2'b0,2'b0 };
    reg [7:0]  sw2 = 8'h02;
 
-   // Convert 3bpp output to 8bpp
-   assign VGA_R = {rgb[2:0],rgb[2:0],rgb[2:1]};
-   assign VGA_G = {rgb[5:3],rgb[5:3],rgb[5:4]};
-   assign VGA_B = {rgb[8:6],rgb[8:6],rgb[8:7]};
     
    // MAP INPUTS FROM SIM
    // -------------------
@@ -66,44 +62,64 @@ module top(
    assign pause = inputs[11];       // pause
 
    // MAP OUTPUTS
-   assign AUDIO_L = {audio,audio};
-   assign AUDIO_R = AUDIO_L;
+assign AUDIO_L   = {audio_l, 6'd0};
+assign AUDIO_R   = {audio_r, 6'd0};
 
-   reg ce_pix;
-   always @(posedge clk_48) begin
-      reg old_clk;
-      
-      old_clk <= clk_12;
-      ce_pix <= old_clk & ~clk_12;
-   end
+ZX81 zx81a (
+   .clk_sys(clk_48),
+   .reset(reset),
+   .locked(reset),
 
-   centipede uut(
-		 .clk_12mhz(clk_12),
- 		 .reset(reset),
-		 .playerinput_i(playerinput),
-		 .trakball_i(trakball),
-		 .joystick_i(joystick),
-		 .sw1_i(sw1),
-		 .sw2_i(sw2),
-		 .led_o(led),
-		 .rgb_o(rgb),
-		 .sync_o(),
-		 .hsync_o(VGA_HS),
-		 .vsync_o(VGA_VS),
-		 .hblank_o(VGA_HB),
-		 .vblank_o(VGA_VB),
-		 .audio_o(audio),
-		 .clk_6mhz_o(),
-       .flip_o(),
-       .pause(pause),
-       .dn_addr(ioctl_addr[15:0]),
-       .dn_data(ioctl_din),
-       .dn_wr(ioctl_wr),
-       .hs_address(7'b0),
-		 .hs_data_in(8'b0),
-		 .hs_data_out(),
-		 .hs_write(1'b0),
-		 .hs_access(1'b0)
-       );
-   
+   .ioctl_wr(ioctl_wr),
+   .ioctl_addr(ioctl_addr),
+   .ioctl_dout(ioctl_dout),
+   .ioctl_download(ioctl_download),
+   .ioctl_index(ioctl_index),
+
+	.jsel(jsel),
+	.joystick_0(joystick_0),
+	.joystick_1(joystick_1),
+
+	.vcrop_en(vcrop_en),
+	.en216p(en216p),
+	.slowmode(slowmode),
+	.FnReset(FnReset),
+	.hz50(hz50),
+	.zx81(zx81),
+
+	.ps2_key(ps2_key),
+	.mod(mod),
+
+   .status5(0),	
+   .status6(0),
+   .status7(0),
+   .status14(0),
+   .status15(0),
+   .status16(0),
+   .status18(0),
+   .status19(0),
+   .status20(0),
+
+   .i(i),
+   .r(r),
+   .g(g),
+   .b(b),
+
+   .VSync(VGA_HS), 
+   .HSync(VGA_VS),	
+   .hblank(VGA_HB), 
+   .vblank(VGA_VB),
+	.ce_pix(ce_pix),
+
+   .audio_l(audio_l),
+   .audio_r(audio_r),
+
+	.tape_in(tape_in),
+	.tape_ready(tape_ready)
+);
+
+assign VGA_R = ({r,{3{i & r}}});
+assign VGA_G = ({g,{3{i & g}}});
+assign VGA_B = ({b,{3{i & b}}});
+
 endmodule

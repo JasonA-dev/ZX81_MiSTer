@@ -21,7 +21,7 @@ module ZX81
 	output wire 	  FnReset,
 	input wire 		  hz50,
 	input wire 		  zx81,
-	
+
 	input wire [10:0] ps2_key,
 	output wire [2:0] mod,
 
@@ -35,10 +35,10 @@ module ZX81
     input wire status19,
     input wire status20,
 
-    output wire i,
-    output wire r,
-    output wire g,
-    output wire b,
+    output reg i,
+    output reg r,
+    output reg g,
+    output reg b,
 
     output reg VSync, 
     output reg HSync,
@@ -62,8 +62,8 @@ reg  ce_6m5,ce_3m25,ce_psg;
 assign 	ce_pix = ce_6m5;
 
 always @(negedge clk_sys) begin
-	reg [4:0] counter = 0;
-	reg [1:0] turbo = 0;
+	reg [4:0] counter;
+	reg [1:0] turbo;
 
 	counter <= counter + 1'd1;
 	if(~slow_mode) turbo <= slowmode;
@@ -84,7 +84,7 @@ end
 ///////////////////   CPU   ///////////////////
 
 wire [15:0] addr;
-wire  [7:0] cpu_din;
+reg  [7:0] cpu_din;
 wire  [7:0] cpu_dout;
 wire        nM1;
 wire        nMREQ;
@@ -95,6 +95,7 @@ wire        nRFSH;
 wire        nHALT;
 wire        nINT = addr[6];
 
+/*
 T80pa cpu
 (
 	.RESET_n(~reset),
@@ -116,6 +117,29 @@ T80pa cpu
 	.DO(cpu_dout),
 	.DI(cpu_din)
 );
+*/
+
+tv80pa cpu
+(
+	.reset_n(~reset),
+	.clk(clk_sys),
+	.cen_p(ce_cpu_p),
+	.cen_n(ce_cpu_n),	
+	.wait_n(nWAIT),
+	.int_n(nINT),
+	.nmi_n(nNMI),
+	.busrq_n(1),
+	.m1_n(nM1),
+	.mreq_n(nMREQ),
+	.iorq_n(nIORQ),
+	.rd_n(nRD),
+	.wr_n(nWR),
+	.rfsh_n(nRFSH),
+	.halt_n(nHALT),
+	.A(addr),
+	.dout(cpu_dout),
+	.di(cpu_din)
+);
 
 always_comb begin
 	case({nMREQ, ~nM1 | nIORQ | nRD})
@@ -125,7 +149,7 @@ always_comb begin
 	endcase
 end
 
-wire [7:0] io_dout;
+reg [7:0] io_dout;
 always_comb begin
 	casex({~kbd_n, zxp_sel, ch81_sel, psg_sel})
 		'b1XXX: io_dout = { tape_in, hz50, 1'b0, key_data[4:0] & joy_kbd };
@@ -136,7 +160,7 @@ always_comb begin
 	endcase
 end
 
-wire  [7:0] mem_out;
+reg  [7:0] mem_out;
 always_comb begin
 	casex({ tapeloader, ~status19 & qs_e, ch81_e, rom_e, ram_e })
 		  'b1_XX_XX: mem_out = tape_loader_patch[addr - (zx81 ? 13'h0347 : 13'h0207)];
@@ -154,7 +178,7 @@ wire ramLo_e  = ~addr[14] & addr[13] & low16k_e;
 wire ramHi_e  = addr[15] & mem_size[1] & (~addr[14] | (nM1 & mem_size[0]));
 wire ram_e    = addr[14] | ramHi_e | (ramLo_e & status16);
 
-wire [15:0] ram_a;
+reg [15:0] ram_a;
 always_comb begin
 	casex({tapeloader, ramLo_e, mem_size, addr[15:14]})
 		'b1_X_XX_XX: ram_a = {2'b01, tape_type ? tape_addr + 4'd8 : tape_addr-1'd1}; // loading address
@@ -428,8 +452,8 @@ wire      ch81_sel = ~nIORQ & (addr == 'h7FEF) & status20;
 reg [7:0] ch81_dat = 0;
 
 always @(posedge clk_sys) begin
-	reg set_m0 = 0;
-	reg old_tapeloader = 0;
+	reg set_m0;
+	reg old_tapeloader;
 
 	if(reset | ~status20) {set_m0, ch81_dat} <= 0;
 	else if(ch81_sel & ~nWR) ch81_dat = cpu_dout;
@@ -479,9 +503,9 @@ dpram #(.ADDRWIDTH(10)) qschrs
 
 reg qs = 0;
 always @(posedge clk_sys) begin
-	reg qs_set = 0;
+	reg qs_set;
 	reg old_f1;
-	reg old_tapeloader = 0;
+	reg old_tapeloader;
 	
 	old_f1 <= Fn[1];
 	if(~old_f1 & Fn[1]) qs <= ~qs;
@@ -504,6 +528,7 @@ wire [7:0] psg_ch_a, psg_ch_b, psg_ch_c;
 
 assign FnReset = Fn[11];
 
+/*
 ym2149 psg
 (
 	.CLK(clk_sys),
@@ -517,6 +542,7 @@ ym2149 psg
 	.CHANNEL_B(psg_ch_b),
 	.CHANNEL_C(psg_ch_c)
 );
+*/
 
 assign audio_l = { 1'b0, psg_ch_a, 1'b0 } + { 2'b00, psg_ch_b };
 assign audio_r = { 1'b0, psg_ch_c, 1'b0 } + { 2'b00, psg_ch_b };
