@@ -20,7 +20,8 @@ module ZX81
     input wire        slowmode,
 	output wire 	  FnReset,
 	input wire 		  hz50,
-
+	input wire 		  zx81,
+	
 	input wire [10:0] ps2_key,
 	output wire [2:0] mod,
 

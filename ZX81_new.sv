@@ -334,10 +334,9 @@ ZX81 zx81a (
 	.vcrop_en(vcrop_en),
 	.en216p(en216p),
 	.slowmode(slowmode),
-
 	.FnReset(FnReset),
-
 	.hz50(hz50),
+	.zx81(zx81),
 
 	.ps2_key(ps2_key),
 	.mod(mod),
@@ -377,7 +376,7 @@ assign VGA_F1 = 0;
 video_mixer #(400,1,1) video_mixer
 (
 	.*,
-	.ce_pix(ce_6m5),
+	.ce_pix(ce_pix),
 	.scandoubler(scale || forced_scandoubler),
 	.hq2x(scale == 1),
 	.freeze_sync(),
