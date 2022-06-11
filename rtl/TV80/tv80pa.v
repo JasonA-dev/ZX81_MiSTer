@@ -51,7 +51,7 @@ module tv80pa (/*AUTOARG*/
   output        rfsh_n; 
   output        halt_n; 
   output        busak_n; 
-  output reg [15:0] A;
+  output [15:0] A;
   input [7:0]   di;
   output [7:0]  dout;
 
@@ -70,8 +70,7 @@ module tv80pa (/*AUTOARG*/
   wire [6:0]    tstate;
 
   reg [1:0]     intcycled_n; 
-	//reg [15:0]    A;   
-	reg [15:0]    A_int; 
+  reg [15:0]    A;   
   reg [15:0]    A_last; 
 
   tv80_core #(Mode, IOWait) i_tv80_core
@@ -83,7 +82,7 @@ module tv80pa (/*AUTOARG*/
      .write (write),
      .rfsh_n (rfsh_n),
      .halt_n (halt_n),
-     .wait_n (wait_n),
+     .wait_n (1),
      .int_n (int_n),
      .nmi_n (nmi_n),
      .reset_n (reset_n),
@@ -92,7 +91,7 @@ module tv80pa (/*AUTOARG*/
      .clk (clk),
      .IntE (),
      .stop (),
-     .A (A),
+     .A (A_int),
      .dinst (di),
      .di (di_reg),
      .dout (dout),
@@ -103,41 +102,34 @@ module tv80pa (/*AUTOARG*/
 
 always @(posedge clk) begin
 
-  if (no_read==1'b0 || write==1'b1) begin
-  	A <= A_int;   
-  end
-  else begin
-    A <= A_last;
-  end
+    if (no_read==1'b0 || write==1'b1) 
+  	  A <= A_int;   
+    else 
+      A <= A_last;
 
-  if (reset_n) begin
-      mreq_n <= 0;
-      iorq_n <= 0;
-      rd_n <= 0;
-      wr_n <= 0;
 		if (clk) begin
-			if (~reset_n) begin
-				wr_n    <= 1'b1;
-				rd_n    <= 1'b1;
-				iorq_n  <= 1'b1;
-				mreq_n  <= 1'b1;
-				di_reg  <= 0;
-				CEN_pol <= 1'b0;
+			if (reset_n==1'b0) begin
+				wr_n    <= #1 1'b1;
+				rd_n    <= #1 1'b1;
+				iorq_n  <= #1 1'b1;
+				mreq_n  <= #1 1'b1;
+				di_reg  <= #1 8'b00000000;
+				CEN_pol <= #1 1'b0;
       end
 			else if (cen_p==1'b1 && CEN_pol==1'b0) begin
-				CEN_pol <= 1'b1;
+				CEN_pol <= #1 1'b1;
 				if (mcycle=='b001) begin
 					if (tstate==3'b010) begin
-						iorq_n <= 1'b1;
-						mreq_n <= 1'b1;
-						rd_n   <= 1'b1;
+						iorq_n <= #1 1'b1;
+						mreq_n <= #1 1'b1;
+						rd_n   <= #1 1'b1;
 					end 
         end
 				else begin
 					if (tstate==3'b001 && iorq==1'b1) begin
 						wr_n   <= ~write;
 						rd_n   <= write;
-						iorq_n <= 1'b0;
+						iorq_n <= #1 1'b0;
 					end 
 				end 
       end
@@ -145,7 +137,7 @@ always @(posedge clk) begin
 				if (tstate==3'b010) 
 					CEN_pol <= ~wait_n;
 				else
-					CEN_pol <= 1'b0;
+					CEN_pol <= #1 1'b0;
 				if (tstate==3'b011 && busak_n==1'b1) di_reg <= di;
 				if (mcycle==3'b001) begin
 					if (tstate==3'b001) begin
@@ -157,8 +149,8 @@ always @(posedge clk) begin
 					end
 					if (tstate==3'b011) begin
 						intcycled_n <= 2'b11;
-						rd_n   <= 1'b1;
-						mreq_n <= 1'b0;
+						rd_n   <= #1 1'b1;
+						mreq_n <= #1 1'b0;
 					end
 					if (tstate==3'b100) mreq_n <= 1'b1;
         end
@@ -166,20 +158,20 @@ always @(posedge clk) begin
 					if (no_read==1'b0 && iorq==1'b0) begin
 						if (tstate==3'b001) begin
 							rd_n   <= write;
-							mreq_n <= 1'b0;
+							mreq_n <= #1 1'b0;
 							A_last <= A_int;
 						end 
 					end 
 					if (tstate==3'b010) wr_n <= ~write;
 					if (tstate==3'b011) begin
-						wr_n   <= 1'b1;
-						rd_n   <= 1'b1;
-						iorq_n <= 1'b1;
-						mreq_n <= 1'b1;
+						wr_n   <= #1 1'b1;
+						rd_n   <= #1 1'b1;
+						iorq_n <= #1 1'b1;
+						mreq_n <= #1 1'b1;
 					end 
 				end
 			end
-		end 
+
   end
 end
   
