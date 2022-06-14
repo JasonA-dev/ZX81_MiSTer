@@ -252,7 +252,7 @@ int main(int argc, char** argv, char** env) {
 	// Setup video output
 	if (video.Initialise(windowTitle) == 1) { return 1; }
 
-	bus.QueueDownload("./test.bin", 0, true);
+	//bus.QueueDownload("./test.bin", 0, true);
 
 
 #ifdef WIN32
@@ -312,9 +312,34 @@ int main(int argc, char** argv, char** env) {
 		ImGui::SetWindowPos(windowTitle_DebugLog, ImVec2(0, 160), ImGuiCond_Once);
 
 		// Memory debug
-		//ImGui::Begin("PGROM Editor");
-		//mem_edit.DrawContents(top->top__DOT__uut__DOT__rom__DOT__mem, 32768, 0);
-		//ImGui::End();
+		ImGui::Begin("ZX81 RAM");
+		mem_edit.DrawContents(&top->top__DOT__zx81a__DOT__ram__DOT__mem, 65536, 0);
+		ImGui::End();
+		ImGui::Begin("ZX81 ROM");
+		mem_edit.DrawContents(&top->top__DOT__zx81a__DOT__rom__DOT__mem, 12288, 0);
+		ImGui::End();
+
+		// ORIC debug
+		ImGui::Begin("ZX81 Debug");
+		ImGui::Text("cpu_din            0x%04X", top->top__DOT__zx81a__DOT__cpu_din);		
+		ImGui::Text("cpu_dout           0x%04X", top->top__DOT__zx81a__DOT__cpu_dout);
+		ImGui::Text("addr               0x%04X", top->top__DOT__zx81a__DOT__addr);	
+		ImGui::Text("reset              0x%04X", top->top__DOT__zx81a__DOT__reset);		
+		ImGui::Text("ce_cpu_p           0x%04X", top->top__DOT__zx81a__DOT__ce_cpu_p);		
+		ImGui::Text("ce_cpu_n           0x%04X", top->top__DOT__zx81a__DOT__ce_cpu_n);		
+		ImGui::Text("nWAIT              0x%04X", top->top__DOT__zx81a__DOT__nWAIT);	
+		ImGui::Text("nINT               0x%04X", top->top__DOT__zx81a__DOT__nINT);		
+		ImGui::Text("nNMI               0x%04X", top->top__DOT__zx81a__DOT__nNMI);		
+		ImGui::Text("wait_n             0x%04X", top->top__DOT__zx81a__DOT__wait_n);		
+		ImGui::Text("nM1                0x%04X", top->top__DOT__zx81a__DOT__nM1);		
+		ImGui::Text("nMREQ              0x%04X", top->top__DOT__zx81a__DOT__nMREQ);		
+		ImGui::Text("nIORQ              0x%04X", top->top__DOT__zx81a__DOT__nIORQ);	
+		ImGui::Text("nRD                0x%04X", top->top__DOT__zx81a__DOT__nRD);		
+		ImGui::Text("nWR                0x%04X", top->top__DOT__zx81a__DOT__nWR);		
+		ImGui::Text("nRFSH              0x%04X", top->top__DOT__zx81a__DOT__nRFSH);		
+		ImGui::Text("nHALT              0x%04X", top->top__DOT__zx81a__DOT__nHALT);	
+		ImGui::Text("ps2_key            0x%010X", top->top__DOT__ps2_key);			
+		ImGui::End();
 
 		// Trace/VCD window
 		ImGui::Begin(windowTitle_Trace);

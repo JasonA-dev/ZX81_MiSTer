@@ -58,11 +58,10 @@ V_SRC = \
 	$(RTL)/glue.sv \
 	$(RTL)/TV80/tv80_alu.v \
 	$(RTL)/TV80/tv80_core.v \
-	$(RTL)/TV80/tv80_mcode.v \
+	$(RTL)/TV80/tv80_mcode.sv \
 	$(RTL)/TV80/tv80_reg.v \
-	$(RTL)/TV80/tv80e.v \
-	$(RTL)/TV80/tv80n.v \
-	$(RTL)/TV80/tv80s.v \
+	$(RTL)/TV80/tv80pa.v \
+	$(RTL)/ym2149.sv \	
 	$(RTL)/dpram.sv
 
 C_SRC = \

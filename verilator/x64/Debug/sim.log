@@ -1,0 +1,215 @@
+﻿  Vtop.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__1.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__1__Slow.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__Slow.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__Syms.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__Trace.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  Vtop__Trace__Slow.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  sim_main.cpp
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2636,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2655,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated.h(2665,9): warning C4018: '>=': signed/unsigned mismatch
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_heavy.h(908,67): warning C4267: 'return': conversion from 'size_t' to 'IData', possible loss of data
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim\vinc\verilated_save.h(282,34): warning C4267: 'initializing': conversion from 'size_t' to 'vluint32_t', possible loss of data
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Generating Code...
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\sim_main.cpp(192): warning C4702: unreachable code
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2442): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__tape_ram__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2442): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__tape_ram__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1645): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__rom__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1645): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__rom__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1649): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__rom__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1649): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__rom__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1657): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__ram__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1657): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__ram__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1653): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__ram__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1653): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__ram__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1661): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__cpu__DOT__i_tv80_core__DOT__i_reg__DOT__RegsL__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1661): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__cpu__DOT__i_tv80_core__DOT__i_reg__DOT__RegsL__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1665): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__cpu__DOT__i_tv80_core__DOT__i_reg__DOT__RegsH__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1665): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__cpu__DOT__i_tv80_core__DOT__i_reg__DOT__RegsH__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1674): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__psg__DOT__unnamedblk3__DOT__tone_gen_cnt__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1684): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__psg__DOT__unnamedblk3__DOT__tone_gen_cnt__v4' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1694): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__psg__DOT__unnamedblk3__DOT__tone_gen_cnt__v7' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1705): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__qschrs__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1705): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__qschrs__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1701): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__qschrs__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1701): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__qschrs__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2873): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__chroma81__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2873): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__chroma81__DOT__mem__v1' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2869): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__chroma81__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2869): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__chroma81__DOT__mem__v0' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1725): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v8' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1725): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v8' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1730): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v9' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1730): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v9' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1737): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v10' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1737): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v10' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1742): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v11' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1742): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v11' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1749): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v12' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1749): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v12' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1754): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v13' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1754): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v13' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1761): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v14' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1761): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v14' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1766): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v15' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1766): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v15' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1773): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v16' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1773): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v16' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1778): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v17' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1778): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v17' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1785): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v18' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1785): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v18' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1790): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v19' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1790): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v19' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1797): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v20' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1797): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v20' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1804): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v21' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1804): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v21' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1811): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v22' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1811): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v22' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1816): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v23' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1816): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v23' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1821): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v24' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1821): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v24' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1828): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v25' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1828): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v25' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1833): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v26' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1833): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v26' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1840): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v27' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1840): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v27' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1845): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v28' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1845): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v28' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1852): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v29' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1852): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v29' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1859): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v30' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1859): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v30' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1864): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v31' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1864): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v31' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1869): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v32' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1869): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v32' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1876): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v33' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1876): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v33' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1883): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v34' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1883): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v34' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1888): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v35' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1888): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v35' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1893): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v36' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1893): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v36' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1900): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v37' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1900): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v37' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1907): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v38' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1907): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v38' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1914): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v39' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1914): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v39' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1921): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v40' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1921): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v40' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1928): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v41' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1928): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v41' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1935): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v42' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1935): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v42' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1942): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v43' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1942): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v43' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1947): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v44' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1947): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v44' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1954): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v45' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1954): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v45' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1961): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v46' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1961): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v46' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1968): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v47' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1968): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v47' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1975): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v48' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1975): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v48' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1982): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v49' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1982): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v49' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1989): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v50' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1989): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v50' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1996): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v51' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(1996): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v51' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2003): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v52' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2003): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v52' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2010): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v53' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2010): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v53' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2017): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v54' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2017): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v54' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2024): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v55' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2024): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v55' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2031): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v56' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2031): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v56' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2038): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v57' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2038): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v57' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2045): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v58' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2045): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v58' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2052): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v59' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2052): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v59' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2059): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v60' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2059): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v60' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2066): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v61' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2066): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v61' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2073): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v62' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2073): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v62' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2080): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v63' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2080): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v63' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2087): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v64' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2087): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v64' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2094): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v65' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2094): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v65' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2101): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v66' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2101): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v66' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2108): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v67' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2108): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v67' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2115): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v68' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2115): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v68' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2122): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v69' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2122): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v69' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2129): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v70' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2129): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v70' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2136): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v71' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2136): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v71' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2143): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v72' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2143): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v72' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2150): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v73' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2150): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v73' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2157): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v74' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2157): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v74' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2164): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__kbd__DOT__keys__v75' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2164): warning C4701: potentially uninitialized local variable '__Vdlyvlsb__top__DOT__zx81a__DOT__kbd__DOT__keys__v75' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2438): warning C4701: potentially uninitialized local variable '__Vdlyvval__top__DOT__zx81a__DOT__psg__DOT__ymreg__v17' used
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\obj_dir\Vtop.cpp(2438): warning C4701: potentially uninitialized local variable '__Vdlyvdim0__top__DOT__zx81a__DOT__psg__DOT__ymreg__v17' used
+  sim.vcxproj -> C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\x64\Debug\sim.exe

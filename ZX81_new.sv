@@ -319,7 +319,7 @@ hps_io #(.CONF_STR(CONF_STR)) hps_io
 ZX81 zx81a (
     .clk_sys(clk_sys),
     .reset(reset),
-    .locked(locked),
+    .locked(reset),
 
     .ioctl_wr(ioctl_wr),
     .ioctl_addr(ioctl_addr),
@@ -341,15 +341,15 @@ ZX81 zx81a (
 	.ps2_key(ps2_key),
 	.mod(mod),
 
-    .status5(status[5]),	
-    .status6(status[6]),
-    .status7(status[7]),
-    .status14(status[14]),
+    .status5(status[5]),	 	// "O5,Black border,Off,On;",
+    .status6(status[6]),  		// "O6,Video frequency,50Hz,60Hz;",
+    .status7(status[7]), 		// "O7,Inverse video,Off,On;",
+    .status14(status[14]), 		// "d1ON,Vertical Crop,Disabled,216p/270p(5x);",
     .status15(status[15]),
     .status16(status[16]),
     .status18(status[18:17]),
     .status19(status[19]),
-    .status20(status[20]),
+    .status20(status[20]), 		// "OT,Play,Off,On;",
 
     .i(i),
     .r(r),

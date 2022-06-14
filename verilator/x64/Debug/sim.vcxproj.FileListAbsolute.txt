@@ -1,0 +1,1 @@
+C:\NoSync\MiSTer\MyCores\ZX81_MiSTer\verilator\x64\Debug\sim.exe

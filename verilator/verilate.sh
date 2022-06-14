@@ -9,9 +9,8 @@ verilator \
 ../rtl/glue.sv \
 ../rtl/TV80/tv80_alu.v \
 ../rtl/TV80/tv80_core.v \
-../rtl/TV80/tv80_mcode.v \
+../rtl/TV80/tv80_mcode.sv \
 ../rtl/TV80/tv80_reg.v \
-../rtl/TV80/tv80e.v \
-../rtl/TV80/tv80n.v \
-../rtl/TV80/tv80s.v \
+../rtl/TV80/tv80pa.v \
+../rtl/ym2149.sv \
 ../rtl/dpram.sv

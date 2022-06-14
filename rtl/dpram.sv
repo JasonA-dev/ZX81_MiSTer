@@ -23,7 +23,7 @@ module dpram #(
     parameter DATAWIDTH = 8,
     parameter ADDRWIDTH = 14,
     parameter NUMWORDS = 12288,
-    parameter MEM_INIT_FILE = 14        
+    parameter MEM_INIT_FILE = ""        
 ) (
     // Port A
     input   wire                     clock,
@@ -45,9 +45,14 @@ module dpram #(
 // Shared memory
 logic [DATAWIDTH-1:0] mem [(2**ADDRWIDTH)-1:0];
 
-/* initial begin
-    mem = '{default:'0};
-end */
+
+initial begin
+   // $display("Loading rom.");
+   // $display(MEM_INIT_FILE);
+    if (MEM_INIT_FILE>0)
+        $readmemh(MEM_INIT_FILE, mem);
+end
+
 
 // Port A
 always @(posedge clock) begin

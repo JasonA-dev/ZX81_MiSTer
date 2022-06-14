@@ -69,7 +69,7 @@ reg  input_strobe = 0;
 wire shift = mod[0];
 
 always @(posedge clk_sys) begin
-	reg old_reset = 0;
+	reg old_reset; // = 0;
 	old_reset <= reset;
 
 	if(~old_reset & reset)begin

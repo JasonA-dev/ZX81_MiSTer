@@ -305,7 +305,8 @@ always @(posedge CLK) begin
 	C <= {MODE, ~((ymreg[7][2] | tone_gen_op[3]) & (ymreg[7][5] | noise_gen_op[2])) ? 5'd0 : ymreg[10][4] ? env_vol[4:0] : {ymreg[10][3:0], ymreg[10][3]}};
 end
 
-wire [7:0] volTable[64] = '{
+wire [7:0] volTable[64];
+assign volTable = '{
 	//YM2149
 	8'h00, 8'h01, 8'h01, 8'h02, 8'h02, 8'h03, 8'h03, 8'h04, 
 	8'h06, 8'h07, 8'h09, 8'h0a, 8'h0c, 8'h0e, 8'h11, 8'h13, 

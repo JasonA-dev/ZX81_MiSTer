@@ -61,6 +61,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="obj_dir\Vtop__1__Slow.cpp" />
+    <ClCompile Include="obj_dir\Vtop__1.cpp" />
     <ClCompile Include="sim\imgui\imgui_widgets.cpp" />
     <ClCompile Include="sim\imgui\imgui_tables.cpp" />
     <ClCompile Include="sim\imgui\imgui_impl_win32.cpp" />
